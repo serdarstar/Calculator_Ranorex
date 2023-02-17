@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="17ee3be4-7eab-422b-97bd-04063c5e9f28"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Calculator">
+	</codegen>
+	<variables>
+		<var
+		id="1f050faf-9db0-4067-a539-a33f5c01ae33"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="21;15"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ddbd113f-fc70-4ee1-b32c-110464dbfed4"
+		sx="1245"
+		sy="181"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1aea28fc-09d5-4474-9eec-bd0be2580cd5"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="3"
+				prefcap="button"
+				rect="1224,166,46,32"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close Calculator
+					</attribute>
+					<attribute
+					name="automationid"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						Close Calculator
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5600
+					</attribute>
+				</element>
+				<path>
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']
+				</path>
+				<robustPath>
+					/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/button[@automationid='Close']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="9f4d8a9e-29db-4711-ac8f-0f010763fa15">
+				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
+RRRQAUUUUAf/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="2103ab9e-9603-4858-b1ec-289669f5e1ab"
+	name="CalculatorRepository"
+	relativepath="CalculatorRepository.rxrep">
+		<codegen
+		classname="CalculatorRepository"
+		namespace="Calculator">
+		</codegen>
+		<rootfolder
+		id="121eadf2-242b-4782-80bf-091c37156b3c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

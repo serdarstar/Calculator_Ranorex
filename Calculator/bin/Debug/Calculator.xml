@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Calculator</name>
+    </assembly>
+    <members>
+        <member name="T:Calculator.CalculatorRepository">
+            <summary>
+            The class representing the CalculatorRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the CalculatorRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Calculator.CalculatorRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepository.Calculator">
+            <summary>
+            The Calculator folder.
+            </summary>
+        </member>
+        <member name="T:Calculator.CalculatorRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder">
+            <summary>
+            The CalculatorAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Calculator  folder.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.MultiplyButton">
+            <summary>
+            The MultiplyButton item.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.MultiplyButtonInfo">
+            <summary>
+            The MultiplyButton item info.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.Text5">
+            <summary>
+            The Text5 item.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.Text5Info">
+            <summary>
+            The Text5 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.SomeText">
+            <summary>
+            The SomeText item.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.SomeTextInfo">
+            <summary>
+            The SomeText item info.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.Text6">
+            <summary>
+            The Text6 item.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.Text6Info">
+            <summary>
+            The Text6 item info.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.EqualButton">
+            <summary>
+            The EqualButton item.
+            </summary>
+        </member>
+        <member name="P:Calculator.CalculatorRepositoryFolders.CalculatorAppFolder.EqualButtonInfo">
+            <summary>
+            The EqualButton item info.
+            </summary>
+        </member>
+        <member name="T:Calculator.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:Calculator.CloseAUT.repo">
+            <summary>
+            Holds an instance of the CalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Calculator.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Calculator.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator.CollectFailedTests">
+             <summary>
+            The CollectFailedTests recording.
+             </summary>
+        </member>
+        <member name="F:Calculator.CollectFailedTests.repo">
+            <summary>
+            Holds an instance of the CalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator.CollectFailedTests.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator.CollectFailedTests.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator.CollectFailedTests.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator.CollectFailedTests.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator.CollectFailedTests.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator.CollectFailedTests.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator.FailedTests.FailedTestsRunner">
+             <summary>
+            The FailedTestsRunner recording.
+             </summary>
+        </member>
+        <member name="F:Calculator.FailedTests.FailedTestsRunner.repo">
+            <summary>
+            Holds an instance of the global::Calculator.CalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator.FailedTests.FailedTestsRunner.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator.FailedTests.FailedTestsRunner.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator.FailedTests.FailedTestsRunner.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator.FailedTests.FailedTestsRunner.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator.FailedTests.FailedTestsRunner.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator.FailedTests.FailedTestsRunner.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator.Regression.Basic_Calculation">
+             <summary>
+            The Basic_Calculation recording.
+             </summary>
+        </member>
+        <member name="F:Calculator.Regression.Basic_Calculation.repo">
+            <summary>
+            Holds an instance of the global::Calculator.CalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator.Regression.Basic_Calculation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator.Regression.Basic_Calculation.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Calculator.Regression.Basic_Calculation.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator.Regression.Basic_Calculation.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator.Regression.Basic_Calculation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator.Regression.Basic_Calculation.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Calculator.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:Calculator.StartAUT.repo">
+            <summary>
+            Holds an instance of the CalculatorRepository repository.
+            </summary>
+        </member>
+        <member name="M:Calculator.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Calculator.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Calculator.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Calculator.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Calculator.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Calculator.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Calculator.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

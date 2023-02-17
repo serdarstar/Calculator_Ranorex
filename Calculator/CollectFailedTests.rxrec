@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6aa6a715-aa5a-42f5-b5d9-32475a726cfe"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CollectFailedTests"
+	namespace="Calculator">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CollectFailedTests"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="FailedTestsCollect"
+		namespace="Calculator"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f25f9c78-b9d9-45df-be76-0835cfa0f325">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="2103ab9e-9603-4858-b1ec-289669f5e1ab"
+	name="CalculatorRepository"
+	relativepath="CalculatorRepository.rxrep">
+		<codegen
+		classname="CalculatorRepository"
+		namespace="Calculator">
+		</codegen>
+		<rootfolder
+		id="121eadf2-242b-4782-80bf-091c37156b3c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CollectFailedTests.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

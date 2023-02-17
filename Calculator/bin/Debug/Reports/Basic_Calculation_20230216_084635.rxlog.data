@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="23.4s"
+		durationms="23395"
+		type="root"
+		rid="1005da4fa329df41"
+		totalerrorcount="0"
+		totalwarningcount="3"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="star"
+		rxversion="10.5.3.0"
+		host="DESKTOP-5RA6J1R"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="16/02/2023 08:46:39"
+		timestampiso="2023-02-16T16:46:39"
+		endtime="16/02/2023 08:47:02"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Basic_Calculation">
+		<detail>
+			Basic_Calculation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.321"
+			timeRelativeToTestModuleStartTime="00:09.321"
+			timeWallClock="08:46:48"
+			time="00:09.321"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Calculator.MultiplyButton' at 33;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+				itempath="?/?/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+				fullname="CalculatorRepository.Calculator.MultiplyButton"
+				id="c0d46a0a563a4bc09f272b3a5d179a2e"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.303"
+			timeRelativeToTestModuleStartTime="00:15.303"
+			timeWallClock="08:46:54"
+			time="00:15.303"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Calculator.MultiplyButton' at -61;98.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+				itempath="?/?/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+				fullname="CalculatorRepository.Calculator.MultiplyButton"
+				id="c0d46a0a563a4bc09f272b3a5d179a2e"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.610"
+			timeRelativeToTestModuleStartTime="00:15.610"
+			timeWallClock="08:46:55"
+			time="00:15.610"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_Basic_Ca_aa5bd39b\Basic_Ca_77d525c7_rxlog.jpg"
+			errthumb="images_Basic_Ca_aa5bd39b\Basic_Ca_77d525c7_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="88"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.473"
+			timeRelativeToTestModuleStartTime="00:16.473"
+			timeWallClock="08:46:56"
+			time="00:16.473"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Calculator.Text5' at 1;23.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num5Button']/text[@name='5']"
+				itempath=".//button[@automationid='num5Button']/text[@name='5']"
+				fullname="CalculatorRepository.Calculator.Text5"
+				id="9bf446881f5e4d14a65bb69b42f89e89"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="92"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.520"
+			timeRelativeToTestModuleStartTime="00:18.520"
+			timeWallClock="08:46:58"
+			time="00:18.520"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Calculator.Text5' at 13;34.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num5Button']/text[@name='5']"
+				itempath=".//button[@automationid='num5Button']/text[@name='5']"
+				fullname="CalculatorRepository.Calculator.Text5"
+				id="9bf446881f5e4d14a65bb69b42f89e89"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="97"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.912"
+			timeRelativeToTestModuleStartTime="00:18.912"
+			timeWallClock="08:46:58"
+			time="00:18.912"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_Basic_Ca_aa5bd39b\Basic_Ca_1a7c9a62_rxlog.jpg"
+			errthumb="images_Basic_Ca_aa5bd39b\Basic_Ca_1a7c9a62_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="98"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.473"
+			timeRelativeToTestModuleStartTime="00:20.473"
+			timeWallClock="08:47:00"
+			time="00:20.473"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Calculator.SomeText' at 2;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='equalButton']/text[@name='']"
+				itempath=".//button[@automationid='equalButton']/text[@name='']"
+				fullname="CalculatorRepository.Calculator.SomeText"
+				id="963501bed3244c3281a19e87781e63f6"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="102"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.895"
+			timeRelativeToTestModuleStartTime="00:21.895"
+			timeWallClock="08:47:01"
+			time="00:21.895"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Up item 'Calculator.SomeText' at -74;-19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='equalButton']/text[@name='']"
+				itempath=".//button[@automationid='equalButton']/text[@name='']"
+				fullname="CalculatorRepository.Calculator.SomeText"
+				id="963501bed3244c3281a19e87781e63f6"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="107"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.288"
+			timeRelativeToTestModuleStartTime="00:22.288"
+			timeWallClock="08:47:01"
+			time="00:22.288"
+			level="Warn"
+			category="MoveTo"
+			errimg="images_Basic_Ca_aa5bd39b\Basic_Ca_32863c91_rxlog.jpg"
+			errthumb="images_Basic_Ca_aa5bd39b\Basic_Ca_32863c91_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="108"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

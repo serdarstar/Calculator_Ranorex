@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="15.58s"
+		durationms="15577"
+		type="root"
+		rid="23cfd1ab6ef9a680"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="star"
+		rxversion="10.5.3.0"
+		host="DESKTOP-5RA6J1R"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-GB"
+		screenresolution="1920x1080"
+		timestamp="16/02/2023 08:50:35"
+		timestampiso="2023-02-16T16:50:35"
+		endtime="16/02/2023 08:50:50"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Basic_Calculation">
+		<detail>
+			Basic_Calculation
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.866"
+			timeRelativeToTestModuleStartTime="00:08.866"
+			timeWallClock="08:50:44"
+			time="00:08.866"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Down item 'Calculator.Text1' at 5;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num1Button']/text[@name='1']"
+				itempath=".//button[@automationid='num1Button']/text[@name='1']"
+				fullname="CalculatorRepository.Calculator.Text1"
+				id="bb943713336d43358049fcf7cc815bdd"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.352"
+			timeRelativeToTestModuleStartTime="00:11.352"
+			timeWallClock="08:50:46"
+			time="00:11.352"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.MultiplyButton' at 29;35.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+				itempath="?/?/container[@automationid='StandardOperators']/button[@automationid='multiplyButton']"
+				fullname="CalculatorRepository.Calculator.MultiplyButton"
+				id="c0d46a0a563a4bc09f272b3a5d179a2e"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.446"
+			timeRelativeToTestModuleStartTime="00:12.446"
+			timeWallClock="08:50:47"
+			time="00:12.446"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.Text6' at 12;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']//button[@automationid='num6Button']/text[@name='6']"
+				itempath=".//button[@automationid='num6Button']/text[@name='6']"
+				fullname="CalculatorRepository.Calculator.Text6"
+				id="8f0a4e8a40ac42acb79c18fe4749e799"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.508"
+			timeRelativeToTestModuleStartTime="00:14.508"
+			timeWallClock="08:50:49"
+			time="00:14.508"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'Calculator.EqualButton' at 46;25.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/winapp[@packagename='Microsoft.WindowsCalculator']/?/?/container[@automationid='StandardOperators']/button[@automationid='equalButton']"
+				itempath="?/?/container[@automationid='StandardOperators']/button[@automationid='equalButton']"
+				fullname="CalculatorRepository.Calculator.EqualButton"
+				id="8f38c3580a364674809bc5655fea426d"
+				timeout="60000"
+				codefile="C:\Users\star\Documents\Ranorex\RanorexStudio Projects\Calculator\Calculator\Regression\Basic_Calculation.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>
